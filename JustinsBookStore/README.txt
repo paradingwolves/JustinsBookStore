@@ -22,6 +22,8 @@
 2022-11-1 @ 10:30am
 -------------------------
 - Created Project References amongst these projects
+- ran into out of data package errors
+     -> updated packages
 - Ran into 2 errors without feedback
 - Could not find the root of my error so I started the project over
 
