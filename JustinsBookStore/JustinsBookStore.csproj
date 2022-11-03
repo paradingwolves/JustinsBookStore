@@ -26,4 +26,8 @@
     <ProjectReference Include="..\JustinsBooks.DataAccess\JustinsBooks.DataAccess.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Areas\Customers\" />
+  </ItemGroup>
+
 </Project>

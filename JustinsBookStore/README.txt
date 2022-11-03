@@ -26,7 +26,7 @@
 - Could not find the root of my error so I started the project over
 
 ----- Date Modified -----
-2022-11-1 @ 10:pm
+2022-11-1 @ 10:30pm
 -------------------------
 
 - After getting to the same spot after closely following the tutorial I am still getting these errors
@@ -34,3 +34,10 @@
 	- Now My only error is in the ErrorViewModel
 	- added this line to the top of Error.cshtml and now project builds without errors: @using JustinsBookStore.Models.ViewModels 
 - Time to make a new gitHub repo
+
+----- Date Modified -----
+2022-11-2 @ 10:30am
+-------------------------
+
+- added class StaticDetails (SD.cs) to JustinsBooks.Utility project
+- 
