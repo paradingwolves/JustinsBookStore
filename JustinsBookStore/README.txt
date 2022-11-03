@@ -34,7 +34,7 @@
 - After getting to the same spot after closely following the tutorial I am still getting these errors
 - I tried playing around with using statements in my Startup.cs file
 	- Now My only error is in the ErrorViewModel
-	- added this line to the top of Error.cshtml and now project builds without errors: @using JustinsBookStore.Models.ViewModels 
+	- added this line to the top of Error.cshtml on line 1 and now project builds without errors: @using JustinsBookStore.Models.ViewModels  
 - Time to make a new gitHub repo
 
 ----- Date Modified -----
