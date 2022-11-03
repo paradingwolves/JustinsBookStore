@@ -30,7 +30,7 @@ namespace JustinsBookStore
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
-            services.AddDefaultIdentity<IdentityUser>() // options => options.SignIn.RequireConfirmedAccount = true)  
+            services.AddDefaultIdentity<IdentityUser>() // options => options.SignIn.RequireConfirmedAccount = true) to allow access to site for testing  
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
             services.AddRazorPages();
