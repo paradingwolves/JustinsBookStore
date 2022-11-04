@@ -4,7 +4,7 @@ using System.Text;
 
 namespace JustinsBooks.Utility
 {
-    class StaticDetails
+    public static class StaticDetails
     {
     }
 }
