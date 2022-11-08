@@ -68,3 +68,44 @@ Reason: Had to break up fight between my cats
 ---->SUCCESS!!
 
 --> Upload to the hub
+
+----- Time Modified -----
+2022-11-7 @ 7:35PM
+-------------------------
+
+- build app to check for errors .... NO ERRORS LFG!!!
+- started part 2 of assignment
+- changed the name of the database to JustinsBookStore
+- added a new field to DB (Category) by creating Category.cs in JustinsBooks.Models
+- migrated the new field to DB and Updated Datase... NO ERRORS LFG!!!
+
+----- Time Modified -----
+2022-11-8 @ 9:25AM
+-------------------------
+
+- created Repository/IRepository/IRepository.cs in the JustinsBooks.DataAccess project
+- made changes to my IRpository interface 
+		-> added CRUD functionality
+- added Repository.cs class to JustinsBooks.DataAccess/Repository
+- added Category Repository and Category Interface Repositories
+
+
+
+                                      /;    ;\
+                                  __  \\____//
+                                 /{_\_/   `'\____
+                                 \___   (o)  (o  }
+      _____________________________/          :--'
+  ,-,'`@@@@@@@@       @@@@@@         \_    `__\
+ ;:(  @@@@@@@@@        @@@             \___(o'o)
+ :: )  @@@@          @@@@@@        ,'@@(  `===='
+ :: : @@@@@:          @@@@         `@@@:
+ :: \  @@@@@:       @@@@@@@)    (  '@@@'
+ ;; /\      /`,    @@@@@@@@@\   :@@@@@)
+ ::/  )    {_----------------:  :~`,~~;
+;;'`; :   )                  :  / `; ;
+;;;; : :   ;                  :  ;  ; :
+`'`' / :  :                   :  :  : :
+   )_ \__;      ";"          :_ ;  \_\       `,','
+   :__\  \    * `,'*         \  \  :  \   *  8`;'*
+       `^'     \ :/           `^'  `-^-'   \v/ :
