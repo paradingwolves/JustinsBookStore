@@ -5,7 +5,7 @@ using System.Text;
 
 namespace JustinsBooks.DataAccess.Repository.IRepository
 {
-    interface ISP_Call : IDisposable
+    public interface ISP_Call : IDisposable
     {
         T Single<T>(string procedureName, DynamicParameters param = null);
         void Execute(string procedureName, DynamicParameters param = null);
