@@ -10,7 +10,7 @@ using System.Linq;
 
 namespace JustinsBooks.DataAccess.Repository
 {
-    class SP_Call : ISP_Call
+    public class SP_Call : ISP_Call
     {
         // access the ddtabase
         private readonly ApplicationDbContext _db;

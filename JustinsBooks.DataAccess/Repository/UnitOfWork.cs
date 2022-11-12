@@ -6,7 +6,7 @@ using System.Text;
 
 namespace JustinsBooks.DataAccess.Repository
 {
-    public class UnitOfWork: IUnitOfWork // make class public
+    public class UnitOfWork : IUnitOfWork // make class public
     {
         private readonly ApplicationDbContext _db; // using statement
         public UnitOfWork(ApplicationDbContext db) // constructor method
