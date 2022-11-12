@@ -14,6 +14,22 @@ namespace JustinsBooks.DataAccess.Repository
         public CategoryRepository(ApplicationDbContext db) : base(db){
             _db = db;
         }
+
+        public void Add(Category category)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Category Get(object p)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Remove(Category objFromDb)
+        {
+            throw new NotImplementedException();
+        }
+
         public void Update(Category category)
         {
             var objFromDb = _db.Categories.FirstOrDefault(s => s.Id == category.Id);

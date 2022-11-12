@@ -8,7 +8,7 @@ namespace JustinsBooks.DataAccess.Repository.IRepository
 {
     public interface IRepository<T> where T : class
     {
-        T Get(int d);
+        T Get(int id);
 
         IEnumerable<T> GetAll(
             Expression<Func<T, bool>> filter = null,
