@@ -102,8 +102,32 @@ Reason: Had to break up fight between my cats
 ----- Time Modified -----
 2022-11-12 @ 10:25AM
 -------------------------
+- create Update Category Controller
+
+
+
+----- Time Modified -----
+2022-11-13 @ 10:25AM
+-------------------------
 - Finished Slides ----->> database collects data, table doesnt show. DATA EXISTS BUT HOW TO ACCESS?? NO ERROR MESSAGE...run time error
-                                      /;    ;\
+
+----- Time Modified -----
+2022-11-14 @ 7:45PM
+-------------------------
+Same problem WTF?!?!?!
+
+----- Time Modified -----
+2022-11-15 @ 4:45AM
+-------------------------
+FOUND ERROR LFG -----> category.js Line 14: "name" used to read as "Name"
+
+Why doesnt delete work??
+----> category.js Line 16: "id" was formerlly "Id"
+									
+									
+									
+									
+									  /;    ;\
                                   __  \\____//
                                  /{_\_/   `'\____
                                  \___   (o)  (o  }

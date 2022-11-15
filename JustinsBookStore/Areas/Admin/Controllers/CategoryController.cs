@@ -62,7 +62,7 @@ namespace JustinsBookStore.Areas.Admin.Controllers
         public IActionResult GetAll()
         {
             var allObj = _unitOfWork.Category.GetAll();
-            return Json(new { date = allObj });
+            return Json(new { data = allObj });
         }
         [HttpDelete]
         public IActionResult Delete(int id)
