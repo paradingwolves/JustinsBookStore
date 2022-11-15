@@ -97,7 +97,12 @@ Reason: Had to break up fight between my cats
 - creating SP_Call class in Repository
 - creating IUnitOfWork interface in IRepository
 - creating UnitOfWork class in Repository
+- All Working Without bugs
 
+----- Time Modified -----
+2022-11-12 @ 10:25AM
+-------------------------
+- Finished Slides ----->> database collects data, table doesnt show. DATA EXISTS BUT HOW TO ACCESS?? NO ERROR MESSAGE...run time error
                                       /;    ;\
                                   __  \\____//
                                  /{_\_/   `'\____
