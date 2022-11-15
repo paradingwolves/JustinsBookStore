@@ -36,9 +36,9 @@ namespace JustinsBookStore.Areas.Admin.Controllers
         }
 
         
-        [HttpGet]
+        [HttpPost]
         [ValidateAntiForgeryToken]
-        /*public IActionResult Upsert(Category category)
+        public IActionResult Upsert(Category category)
          {
              if (ModelState.IsValid)
              {
@@ -55,7 +55,7 @@ namespace JustinsBookStore.Areas.Admin.Controllers
                  return RedirectToAction(nameof(Index));
              }
              return View(category);
-         } */
+         } 
         //API Calls Here
         #region
         public IActionResult GetAll()

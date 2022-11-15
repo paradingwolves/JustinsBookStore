@@ -5,11 +5,8 @@ using System.Text;
 
 namespace JustinsBooks.DataAccess.Repository.IRepository
 {
-    public interface ICategoryRepository : IRepository<CategoryRepository>
+    public interface ICategoryRepository : IRepository<Category>
     {
         void Update(Category category);
-        Category Get(object p);
-        void Add(Category category);
-        void Remove(Category objFromDb);
     }
 }
