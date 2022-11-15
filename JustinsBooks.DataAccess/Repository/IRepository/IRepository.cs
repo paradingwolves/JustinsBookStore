@@ -9,7 +9,7 @@ namespace JustinsBooks.DataAccess.Repository.IRepository
     public interface IRepository<T> where T : class
     {
         T Get(int id);
-
+        //lol
         IEnumerable<T> GetAll(
             Expression<Func<T, bool>> filter = null,
             Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null,
