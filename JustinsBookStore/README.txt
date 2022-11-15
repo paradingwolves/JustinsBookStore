@@ -94,7 +94,7 @@ Reason: Had to break up fight between my cats
 		-> added CRUD functionality
 - added Repository.cs class to JustinsBooks.DataAccess/Repository
 - added Category Repository and Category Interface Repositories
-
+- pushed to HUB
 
 ----- Time Modified -----
 2022-11-11 @ 10:25AM
@@ -109,7 +109,7 @@ Reason: Had to break up fight between my cats
 2022-11-12 @ 10:25AM
 -------------------------
 - create Update Category Controller
-
+- pushed to HUB
 
 
 ----- Time Modified -----
@@ -122,6 +122,7 @@ Reason: Had to break up fight between my cats
 -------------------------
 Same problem WTF?!?!?!
 
+
 ----- Time Modified -----
 2022-11-15 @ 4:45AM
 -------------------------
@@ -129,7 +130,7 @@ FOUND ERROR LFG -----> category.js Line 14: "name" used to read as "Name"
 
 Why doesnt delete work??
 ----> category.js Line 16: "id" was formerlly "Id"
-									
+- pushed to HUB									
 									
 									
 									
