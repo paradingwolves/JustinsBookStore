@@ -74,9 +74,15 @@ Reason: Had to break up fight between my cats
 -------------------------
 
 - build app to check for errors .... NO ERRORS LFG!!!
+
 - started part 2 of assignment
+
+- migration name: addCategoryToDb
+
 - changed the name of the database to JustinsBookStore
+
 - added a new field to DB (Category) by creating Category.cs in JustinsBooks.Models
+
 - migrated the new field to DB and Updated Datase... NO ERRORS LFG!!!
 
 ----- Time Modified -----
