@@ -131,7 +131,7 @@ FOUND ERROR LFG -----> category.js Line 14: "name" used to read as "Name"
 Why doesnt delete work??
 ----> category.js Line 16: "id" was formerlly "Id"
 - pushed to HUB									
-									
+- made buttons highlight when user hovers
 									
 									
 									  /;    ;\
