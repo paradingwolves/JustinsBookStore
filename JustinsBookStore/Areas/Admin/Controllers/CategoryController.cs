@@ -1,6 +1,7 @@
-﻿using JustinsBooks.DataAccess.Repository.IRepository;
+﻿using Microsoft.AspNetCore.Mvc;
+using JustinsBooks.DataAccess.Repository.IRepository;
 using JustinsBooks.Models;
-using Microsoft.AspNetCore.Mvc;
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
