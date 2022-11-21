@@ -10,7 +10,7 @@ namespace JustinsBooks.Models
         [Key]
         public int Id { get; set; }
 
-        [Display(Name = "Cover Type")]
+        [Display(Name = "Cover")]
         [Required]
         [MaxLength(50)]
         public string Name { get; set; }

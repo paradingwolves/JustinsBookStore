@@ -8,26 +8,32 @@ using System.Text;
 
 namespace JustinsBooks.DataAccess.Repository
 {
-    public class CoverTypeRepository : Repository<CoverType>, ICoverTypeRepository
+    public class ProductRepository : Repository<Product>, IProductRepository
     {
         private readonly ApplicationDbContext _db;
 
-        public CoverTypeRepository(ApplicationDbContext db) : base(db)
+        public ProductRepository(ApplicationDbContext db) : base(db)
         {
             _db = db;
         }
 
-        public void Update(CoverType coverType)
+        public void Update(Product product)
         {
             //throw new NotImplementedException();
             //use .NET LINQ to retrieve the first or default category object
             // then pass the id as a generic entity which matters the category ID
-            var objFromDb = _db.Covers.FirstOrDefault(s => s.Id == coverType.Id);
+            var objFromDb = _db.Products.FirstOrDefault(s => s.Id == product.Id);
             if (objFromDb != null)//Save changes if not null
             {
-                objFromDb.Name = coverType.Name;
-                // _db.SaveChanges();
+                objFromDb.ImageUrl = product.ImageUrl;
             }
+            objFromDb.Title = product.Title;
+            objFromDb.Description = product.Description;
+            objFromDb.ISBN = product.ISBN;
+            objFromDb.Author = product.Author;
+            objFromDb.ListPrice = product.ListPrice;
+            objFromDb.CategoryId = product.CategoryId;
+            objFromDb.CoverTypeId = product.CoverTypeId;
         }
     }
 }

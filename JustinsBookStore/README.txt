@@ -132,8 +132,81 @@ Why doesnt delete work??
 ----> category.js Line 16: "id" was formerlly "Id"
 - pushed to HUB									
 - made buttons highlight when user hovers
+
+----- Time Modified -----
+2022-11-21 @ 3:15AM
+-------------------------
+
+-----------------------------
+  Started Working on Part 3
+-----------------------------
+
+- added CoverType.cs to JustinsBooks.Models
+- added CoverTypeRepository.cs to JustinsBooks.DataAccess/Repository
+- added ICoverTypeRepository.cs to JustinsBooks.DataAccess/Repository/IRepository
+- added CoverTypeRepository to UnitOfWork
+- added ICoverTypeRepository to IUnitOfWork
+
+
+- ADDED MIGRATION to JustinsBooks.DataAccess  -------------------------------------------------------> 20221121201738_addCoverTypeToDb
+- updated database (JustinsBooks.DataAccess)
+
+
+----- Time Modified -----
+2022-11-21 @ 3:55
+-------------------------
+- created cover.js for the Covers table
+- created CoverTypeController.cs in JustinsBookStore/Areas/Admin/Controllers directory
+- added Index.cshtml and Upsert.cshtml to JustinsBookStore/Areas/Admin/Views/CoverType
+
+
+
+----- Time Modified -----
+2022-11-21 @ 4:30
+-------------------------
+- ADDED MIGRATION to JustinsBooks.DataAccess --------------------------------------------------------> 20221121212925_addProductToDb
+- updated database
+- added validation to Product class (Product.cs)
+- ADDED MIGRATION to JustinsBooks.DataAccess --------------------------------------------------------> 20221121214319_addValidationToProduct
+- updated database
+- added Product to Repository (ProductRepository.cs)
+- added IProductRepository interface (IProductRepository.cs)
+- added ProductRepository to UnitOfWork
+- added IProductRepository to IUnitOfWork
+- build to test
+- success
+- upload to hub
 									
-									
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 									  /;    ;\
                                   __  \\____//
                                  /{_\_/   `'\____
