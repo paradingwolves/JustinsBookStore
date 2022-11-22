@@ -1,6 +1,8 @@
 ﻿using JustinsBooks.DataAccess.Repository.IRepository;
 using JustinsBooks.Models;
 using JustinsBookStore.DataAccess.Data;
+using JustinsBooks.DataAccess.Repository.IRepository;
+using JustinsBooks.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;

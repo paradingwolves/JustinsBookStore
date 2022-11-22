@@ -31,8 +31,8 @@ namespace JustinsBooks.DataAccess.Migrations
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_Products_Covers_CategoryId",
-                        column: x => x.CategoryId,
+                        name: "FK_Products_Covers_CoverTypeId",
+                        column: x => x.CoverTypeId,
                         principalTable: "Covers",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);

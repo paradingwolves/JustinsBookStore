@@ -13,6 +13,7 @@ namespace JustinsBooks.Models
         public int Id { get; set; }
         [Required]
         public string Title { get; set; }
+
         public string Description { get; set; }
         [Required]
         public string ISBN { get; set; }
@@ -28,7 +29,7 @@ namespace JustinsBooks.Models
         public Category Category { get; set; }
         [Required]
         public int CoverTypeId { get; set; }
-        [ForeignKey("CategoryId")]
+        [ForeignKey("CoverTypeId")]
         public CoverType CoverType { get; set; }
     }
 }

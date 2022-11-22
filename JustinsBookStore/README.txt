@@ -134,7 +134,7 @@ Why doesnt delete work??
 - made buttons highlight when user hovers
 
 ----- Time Modified -----
-2022-11-21 @ 3:15AM
+2022-11-21 @ 3:15PM
 -------------------------
 
 -----------------------------
@@ -153,7 +153,7 @@ Why doesnt delete work??
 
 
 ----- Time Modified -----
-2022-11-21 @ 3:55
+2022-11-21 @ 3:55PM
 -------------------------
 - created cover.js for the Covers table
 - created CoverTypeController.cs in JustinsBookStore/Areas/Admin/Controllers directory
@@ -162,8 +162,9 @@ Why doesnt delete work??
 
 
 ----- Time Modified -----
-2022-11-21 @ 4:30
+2022-11-21 @ 4:30PM
 -------------------------
+
 - ADDED MIGRATION to JustinsBooks.DataAccess --------------------------------------------------------> 20221121212925_addProductToDb
 - updated database
 - added validation to Product class (Product.cs)
@@ -176,10 +177,27 @@ Why doesnt delete work??
 - build to test
 - success
 - upload to hub
-									
 
 
+----- Time Modified -----
+2022-11-21 @ 5:10PM
+-------------------------	
 
+- create Product Controller (ProductController.cs)
+- create Product View Model in JustinsBooks.Models/ViewModels  (ProductVM.cs)
+
+----- Time Modified -----
+2022-11-22 @ 5:10
+-------------------------
+
+- getting an error when trying to add product to Db
+- exception on UnitOfWork.cs
+
+- PROBLEM: Products Table only had one foreign key
+- SOLUTION: addProductToDb Lines 34 & 35 changed CategoryId to CoverTypeId
+
+- problem solved
+- upload to git
 
 
 

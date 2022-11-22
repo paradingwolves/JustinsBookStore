@@ -6,24 +6,31 @@ using System.Text;
 
 namespace JustinsBooks.DataAccess.Repository
 {
-    public class UnitOfWork : IUnitOfWork // make class public
+    public class UnitOfWork : IUnitOfWork
     {
-        private readonly ApplicationDbContext _db; // using statement
-        public UnitOfWork(ApplicationDbContext db) // constructor method
+        private readonly ApplicationDbContext _db;
+
+        public UnitOfWork(ApplicationDbContext db)
         {
             _db = db;
             Category = new CategoryRepository(_db);
-            Cover = new CoverTypeRepository(_db);
             SP_Call = new SP_Call(_db);
+            Cover = new CoverTypeRepository(_db);
+            Product = new ProductRepository(_db);
+            
         }
+
         public ICategoryRepository Category { get; private set; }
-        public ICoverTypeRepository Cover { get; private set; }
         public ISP_Call SP_Call { get; private set; }
+        public ICoverTypeRepository Cover { get; private set; }
+        public IProductRepository Product { get; private set; }
+        
 
         public void Dispose()
         {
             _db.Dispose();
         }
+
         public void Save()
         {
             _db.SaveChanges();
