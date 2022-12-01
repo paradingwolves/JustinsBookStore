@@ -209,7 +209,6 @@ STARTING PART 4
 -------------------------
 - took off zebra style on product table
 - changed to table dark on product table
-- added product view to landing screen
 - changed route to upsert
 - added product table to landing screen
 - changed link to upsert page so it will work on the main page
@@ -221,6 +220,17 @@ STARTING PART 4
 - uploading to gitHub because i forgot to last night
 
 
+----- Time Modified -----
+2022-11-30 @ 11:31P.M.
+-------------------------
+- updated ProductRepository
+- updated ProductController
+- updated product model
+- updated static details class
+- updated HomeController
+- added migration addNewValidationToDb --------------------------------------------------------> 20221201044223_addNewValidationToProduct
+- change the way products display on HomePage
+- table now displays on its own page, cards display on landing/home screen
 
 
 
