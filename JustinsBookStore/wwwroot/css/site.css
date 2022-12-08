@@ -38,6 +38,9 @@ html {
     html {
         font-size: 16px;
     }
+    div.class>img.productImage {
+        max-height: 450px
+    }
 }
 
 .border-top {

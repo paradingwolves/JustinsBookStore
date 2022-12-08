@@ -234,6 +234,14 @@ STARTING PART 4
 
 
 
+----- Time Modified -----
+2022-12-08 @ 2:45PM
+-------------------------
+- renamed the website 
+- make product image sizes the same
+- cleaned up tab titles
+
+
 
 
 
