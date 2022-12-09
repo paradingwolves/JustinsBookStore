@@ -241,8 +241,11 @@ STARTING PART 4
 - make product image sizes the same
 - cleaned up tab titles
 
-
-
+----- Time Modified -----
+2022-12-09 @ 11:10AM
+-------------------------
+- cleaned drop down
+- changed header on landing screen fro Home -> Your Next Chapter
 
 
 
